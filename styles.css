@@ -1,0 +1,53 @@
+h2 {
+    color: greenyellow;
+}
+
+#IdSelector1 {
+    color: blue;
+}
+
+.classSelector1 {
+    color: chocolate;
+}
+
+h3, h4 {
+    color: brown;
+}
+
+.containeer {
+    background-color: aqua;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 30px;
+    border: 2px solid darkblue;
+}
+
+.ImageContaineer {
+    background-image: url(1612269096608.png);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.TextContaineer {
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 500px;
+}
+
+.ManegmentTable {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 15px;
+}
+th,td {
+    border: 2px solid black;
+}
+
+.formContaineer  {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}

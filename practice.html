@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            HTML Document 01
+        </title>
+
+        <!-- Internal CSS -->
+        <style>
+            h1 {
+                color: blueviolet;
+            }
+        </style>
+
+        <!-- External CSS -->
+         <link href="styles.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <h1>Welcom to my Website</h1>
+
+        <!-- Headings -->
+         <h1>This is heading 1</h1>
+         <h2>This is headind 2</h2>
+         <h3>This is heading 3</h3>
+         <h4>This is heading 4</h4>
+         <h5>This is heading 5</h5>
+         <h6>This is heading 6</h6>
+
+         <!-- Paragraph -->
+        <p>This is a paragraph.</p>
+
+        <!-- Links -->
+        <a href="https://www.correctlearner.com" target="_blank">Correct Learner</a>
+        <hr>
+
+        <!-- Void Elements (Viod elements dont have ending tag) -->
+        <img src="check_mark_blue_800_wht.jpg" alt="Correct Image">
+        <hr>
+        <p>This is a paragraph. You can read it here.<br>This is the braked test.</p> 
+
+        <!-- Inline CSS -->
+         <p style="color: aqua;">This is for inline css</p>
+
+         <!-- ID Selector -->
+          <p id="IdSelector1">This is for ID Selector</p>
+
+          <!-- Class Selector -->
+           <p class="classSelector1">This is for class selector</p>
+
+           <!-- Div Tag -->
+            <div class="containeer">
+                <h5>Welvome to Div Tag</h5>
+                <p>This is paragraph inside div tag</p>
+            </div>
+            <hr>
+            <hr>
+
+            <div class="ImageContaineer">
+                <div class="TextContaineer">
+                    <h1>Tim Cook</h1>
+                    <h4>CEO of Apple</h4>
+                    <a href="https://en.wikipedia.org/wiki/Tim_Cook" target="_blank">Click to More Information</a>
+                </div>
+            </div>
+
+            <hr>
+            <hr>
+
+            <!-- List -->
+             <ol>
+                <li>New york</li>
+                <li>colombo</li>
+                <li>isthanbul</li>
+                <li>Paris</li>
+             </ol>
+
+             <ul>
+                <li>Apple</li>
+                <li>Orange</li>
+                <li>Grapes</li>
+                <li>Mango</li>
+             </ul>
+             <hr>
+
+             <!-- Table -->
+              <table class="ManegmentTable">
+                <tr>
+                    <th>Restaurant</th>
+                    <th colspan="2">Manegers</th>
+                    <th>Town</th>
+                </tr>
+                <tr>
+                    <td>Pol Athu BathKade</td>
+                    <td>Nihal Sumanadasa</td>
+                    <td>Upali Attanayake</td>
+                    <td>Kadawatha</td>
+                </tr>
+                <tr>
+                    <td>Nelum Kole Bath</td>
+                    <td colspan="2">Robert Brown</td>
+                    <td>Colombo 03</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Matara BathKade</td>
+                    <td>Sanjeewa Vithanage</td>
+                    <td>Jacob Jackson</td>
+                    <td>Dehiwala</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Zara Keerthirathna</td>
+                    <td>Moratuwa</td>
+                </tr>
+              </table>
+              <hr>
+
+              <!-- Form -->
+               <div class="formContaineer">
+                <form>
+                    <label for="name1">First Name :</label>
+                    <input type="text" name="firstname" id="name1">
+                    <br><br>
+                    <label for="name2">Last name :</label>
+                    <input type="text" name="lastname" id="name2">
+                    <br><br>
+                    <label for="email">Email :</label>
+                    <input type="email" name="email" id="email">
+                    <br><br>
+                    <label for="phone">Phone Number :</label>
+                    <input type="number" name="phone" id="phone">
+                    <br><br>
+                    <label for="password">Password :</label>
+                    <input type="password" name="password" id="password">
+                    <br><br>
+                    <label for="apple">Apple</label>
+                    <input type="checkbox" id="apple" name="apple">
+                    <br>
+                    <label for="samsung">Samsung</label>
+                    <input type="checkbox" id="samsung" name="samsung">
+                    <br>
+                    <label for="huawei">Huawei</label>
+                    <input type="checkbox" id="huawei" name="huawei">
+                    <br>
+                    <label for="googlepixel">Google Pixel</label>
+                    <input type="checkbox" id="googlepixel" name="googlepixel">
+                    <br><br>
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="male">
+                    <br>
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="female">
+                    <br><br>
+                    <label for="selectOption">Select your favourite</label>
+                    <select id="selectFav" name="selectOption">
+                        <option value="choice1">Ranil Wickramasingha</option>
+                        <option value="choice2">Sajith Premadasa</option>
+                        <option value="choice3">Anura Kumara Disanayake</option>
+                        <option value="choice4">Namal Rajapaksha</option>
+                        <option value="choice5">Dilith Jayaweera</option>
+                    </select>
+                    <br><br>
+                    <label for="textArea">Why are you choosing him ?</label>
+                    <textarea id="textAreaInput" name="textAreaInput" rows="5" cols="50"></textarea>
+                    <br><br>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </form>
+               </div>
+
+    </body>
+</html>
